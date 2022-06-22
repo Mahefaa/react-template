@@ -2,7 +2,7 @@ import './footer.css';
 export default function Footer(props){
 return(
     <footer>
-        <div>
+        <div className={""}>
             <p>@Copyright Toky Transport Powered by HEI Tech</p>
         </div>
         <div>
