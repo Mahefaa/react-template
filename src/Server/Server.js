@@ -5,6 +5,26 @@ export default function Server(){
         <div className={"container-fluid mt-5"}>
             <div className={"jumbotron d-flex mt-1"}>
                 <Card size={3}
+                      header={"To Do List"}
+                      body={"Broken Cars"}
+                      footer={"Footer"}
+                />
+
+                <Card size={6}
+                      header={"Free position"}
+                      body={"List"}
+                      footer={""}
+                />
+
+                <Card size={3}
+                      header={"Most visited sites"}
+                      body={"HEI"}
+                      footer={"Footer"}
+                />
+            </div>
+
+            <div className={"jumbotron d-flex mt-1"}>
+                <Card size={3}
                       header={"today"}
                       body={"today's trip list"}
                       footer={"Footer"}
