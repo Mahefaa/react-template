@@ -1,5 +1,8 @@
 ## This is a web-page template that we'll link to a database and add a complete working back-end as time goes on !!
 ### Its database is my repo named "Toky_Transport" that you can see on github.com/Mahefaa/Toky_Transport :)
+
+# Note that you need to run npm install before being able to use it correctly !
+
 # Getting Started with Create React App
 
 
