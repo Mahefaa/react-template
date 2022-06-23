@@ -1,11 +1,10 @@
 ul{
     list-style: none;
 }
-ul a{
+header a{
     color: black;
-    border: 2px solid black;
     text-decoration: none;
 }
-ul a:hover{
-    color: darkred;
+header a:hover{
+    color: darkred !important;
 }
