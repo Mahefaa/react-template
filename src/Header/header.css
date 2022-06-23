@@ -1,7 +1,16 @@
-ul{
-    list-style: none;
+header{
+    background:lightslategrey;
+    opacity: .8;
+    position:fixed;
+    top:0;
+    height: 100px;
+    width: 100vw;
+    z-index: 999;
 }
-header a{
+header:hover{
+    opacity:1;
+}
+header a {
     color: black;
     text-decoration: none;
 }

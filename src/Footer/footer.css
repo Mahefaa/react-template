@@ -1,7 +1,7 @@
 footer{
     width: 98.5%;
     border: 1px hidden grey;
-    background-color: #e9ecef;
+    background-color:lightslategrey !important;
 }
 footer a{
     text-decoration: none;

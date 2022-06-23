@@ -2,7 +2,7 @@ import Card from "../Card/Card";
 
 export default function Server(){
     return(
-        <div className={"container-fluid"}>
+        <div className={"container-fluid mt-5"}>
             <div className={"jumbotron d-flex mt-1"}>
                 <Card size={3}
                       header={"today"}

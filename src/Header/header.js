@@ -1,11 +1,10 @@
 import "../bootstrap-4.6.1-dist/css/bootstrap.css";
 import "./header.css";
-import {useState} from "react";
 export default function Header(props){
     const {user,setUser}=props
 return(
     <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-info row">
+        <nav className="navbar navbar-expand-lg navbar-light row">
             <div className={"col-4"}>
             </div>
             <a className="navbar-brand text-danger" href="#">Toky Transport</a>

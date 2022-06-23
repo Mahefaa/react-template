@@ -2,7 +2,7 @@ import './footer.css';
 import '../bootstrap-4.6.1-dist/css/bootstrap-grid.css'
 export default function Footer(props){
 return(
-    <footer className={"jumbotron d-flex mr-2 ml-2 mb-0 bg-info"}>
+    <footer className={"jumbotron d-flex mr-2 ml-2 mb-0"}>
         <div className={"col"}>
             <p>@Copyright Toky Transport Powered by HEI Tech</p>
         </div>
@@ -13,7 +13,7 @@ return(
             </p>
         </div>
         <div className={"col"}>
-            <a href="#">Terms of use</a>
+            <a href="#"><strong>Terms of use</strong></a>
         </div>
     </footer>
 );
