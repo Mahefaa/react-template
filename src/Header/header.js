@@ -1,6 +1,8 @@
 import "../bootstrap-4.6.1-dist/css/bootstrap.css";
 import "./header.css";
+import {useState} from "react";
 export default function Header(props){
+    const {user,setUser}=props
 return(
     <header>
         <nav className="navbar navbar-expand-lg navbar-light bg-info row">
@@ -21,6 +23,7 @@ return(
                     <a className="nav-link">Informations</a>
                     <a className="nav-link">Help</a>
                     <a className="nav-link">Language</a>
+                    <a className={"nav-link"} onClick={()=>setUser(user==="client"?"admin":"client")}>{user+" "}P.O.V</a>
                 </div>
             </div>
         </nav>

@@ -8,7 +8,7 @@ return(
         </div>
         <div className={"col-7"}>
             <p>
-                All issues should be sent to :
+                Any issue should be sent to :
                 <a href={" mailto: tokyTransport.example.valid "}><strong>{" "}yourmail@example.valid </strong></a>
             </p>
         </div>

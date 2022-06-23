@@ -1,7 +1,7 @@
 export default function Card(props){
-    const {size,title,header,body,footer}=props;
+    const {size,header,body,footer}=props;
     return(
-        <div className={"text-center card col-"+size}>
+        <div className={"text-center card col-"+size+" ml-1"}>
             <div className={"card-header"}>
                 {header}
             </div>
